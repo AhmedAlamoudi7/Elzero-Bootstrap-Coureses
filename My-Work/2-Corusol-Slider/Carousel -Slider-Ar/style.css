@@ -4,6 +4,10 @@
     min-height: 70px;
 }
 
+.bg-dark {
+    background-color: #000000 !important;
+}
+
 /* All navbar items */
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -24,6 +28,12 @@
     font-weight: 1000;
 }
 
+.navbar-light .navbar-brand:hover {
+    color: beige;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
 .navbar-light .navbar-brand span {
     color: aqua;
 }
@@ -31,6 +41,11 @@
 /* navbar Links main */
 .navbar-light .navbar-nav .active>.nav-link:hover {
     border: 1px solid aqua;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: aqua;
 
 }
 
@@ -87,3 +102,36 @@
 .navbar-light .navbar-toggler {
     border-color: aqua
 }
+
+/* carousel */
+/* #carouselExampleControls>.carousel-inner>.carousel-item {
+     padding-top:90px;}
+      */
+
+
+/* carusel img  */
+#carouselExampleControls>.carousel-inner>.carousel-item img {
+object-fit: cover;
+
+}
+/* carousel text bg*/
+.carousel-caption{
+background-color: #000000b2;
+padding:20px;
+border-bottom:2px solid aqua;
+}
+.carousel-caption h1{
+    color:aqua;
+}
+.carousel-caption h1,p {
+    font-family: sans-serif;
+
+}
+.carousel-caption p{
+text-align: right;
+}
+
+
+
+
+

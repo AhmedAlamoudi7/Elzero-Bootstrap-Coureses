@@ -1,0 +1,138 @@
+
+
+
+
+/* navbar  */
+.navbar{
+padding: .1rem .5rem;
+min-height:70px;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
+}
+/* .navbar-nav .nav-link:hover{
+color:aliceblue;
+} */
+/* All navbar items */
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link
+{
+
+color:rgb(40, 236, 236);
+font-size:20px;
+font-weight: 500;
+
+}
+
+/* navbar brand */
+.navbar-light .navbar-brand{
+    color:beige;
+    font-size:30px;
+    font-weight: 1000;
+}
+.navbar-light .navbar-brand:hover {
+    color: beige;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.navbar-light .navbar-brand span{
+color:aqua;
+}
+ 
+/* navbar Links main */
+.navbar-light .navbar-nav .active>.nav-link:hover{
+border:1px solid aqua;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:  aqua;
+
+}
+/* Navbar Links */
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.disabled
+
+{
+    color:beige;
+    font-size:20px;
+    font-weight: 500;
+
+}
+
+/* dropdown menu */
+.dropdown-menu{
+border-top :2px solid rgb(40, 236, 236);
+min-width:200px;
+
+}
+/* dropdown menu if arabic */
+/* .dropdown-menu {
+
+left:0;
+right:auto;
+} */
+
+
+
+.dropdown-menu :hover{
+    background-color: aqua;
+    
+}
+/* dropdown menu items */
+.dropdown-menu> .dropdown-item
+{
+    color:beige;
+    /* to animate items in nav
+
+    ??put this in hover//   
+        padding-left:35px;
+    ??put this in normal//
+       -webkit-transitoin:padding 0.5s ease;
+       -moz-transitoin:padding 0.5s ease;
+       -o-transitoin:padding 0.5s ease;
+        transition:padding 0.5s ease;
+    */
+    -webkit-transitoin:padding 0.5s ease;
+    -moz-transitoin:padding 0.5s ease;
+    -o-transitoin:padding 0.5s ease;
+    transition:padding 0.5s ease;
+
+}
+.dropdown-menu>.dropdown-item:hover
+{
+    color: black;
+    padding-left:35px;
+}
+
+/* navbar-troggler  */
+.navbar-light .navbar-toggler
+{
+border-color:aqua;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  border-color:1px solid rgb(153, 71, 71);  
+}
+
+/* carousel */
+/* #carouselExampleControls>.carousel-inner>.carousel-item {
+     padding-top:90px;}
+      */
+
+
+/* carusel img  */
+#carouselExampleControls>.carousel-inner>.carousel-item img {
+object-fit: cover;
+
+}
+/* carousel text bg*/
+.carousel-caption{
+background-color: #000000b2;
+padding:20px;
+border-bottom:2px solid aqua;
+}
+.carousel-caption h1{
+    color:aqua;
+}
