@@ -40,12 +40,38 @@
  -->
 
         <div class="row">
-            <div class="col-lg-12 col-md-6 col-sm-12 col-xs-6 d-none d-sm-block">
+            
+            <div class="col-lg-12 col-md-6 col-sm-12 col-xs-6">
+
+                <!-- Nansted Grid  -->
+                <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                 <!--class="img-fluid"> use to عشان الصورة مهما غيرنا بحجم الكولوم تتغير ومتا نأثر على النص اللي جنبها ولا بحجم وشكل الصورة يعني تتأقلم مع الحجم   -->
+
+                 <!-- center-block == d-block mx-auto   make img in center in small size-->
+                <img class="img-fluid d-block mx-auto" src="Images/Printer.jpg" alt="Sea">
+               </div>
+               <div class="col-lg-10 col-md-8 col-sm-8">
+                   <h1>text</h1>
+                   <!-- lead -> type of text to P -->
+                   <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aperiam cum quas et adipisci
+                       atque quibusdam.
+</p>
+               </div>
+                </div>
+              
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6 d-none d-sm-block">
                 <div class="os">
                     Product #1
                 </div>
             </div>
-            <div class="col-lg-8 offset-4 col-md-6 col-sm-12 col-xs-6 d-none d-md-block">
+            <!-- offset 
+            used to control float of div 
+            notes // offsset +col = 12 or what you want style 
+            -->
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6 d-none d-md-block">
                 <div class="os">
                     Product #2
                 </div>
@@ -65,18 +91,13 @@
                     Product #5
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+            <div class="col-lg-4  col-md-6 col-sm-12 col-xs-6">
                 <div class="os">
                     Product #6
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-                <div class="os">
-                    .col-sm-6 .col-md-5 .offset-md-2 .col-lg-6
-                    .offset-lg-0
-                </div>
-            </div>
+ 
 
             <!-- <div class="container">
       <div class="row">
