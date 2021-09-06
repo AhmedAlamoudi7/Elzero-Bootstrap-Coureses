@@ -13,16 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css.map">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css.map">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Font Awesome Icons -->
     <link href="/fonts/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet">
     <link href="/fonts/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
@@ -163,7 +154,7 @@
 
 
     <!-- Start Section About -->
-    <section class="About text-center">
+    <section class="About text-center wow slideInLeft" data-wow-duration="2s" data-wow-offset="200">
         <h1>Meet Our New Template <span>Ahmed Dev.</span></h1>
         <p class="lead">Hello Let me Introduce Our New Template Ahmed Dev. Created With Love With Bootstrap 4.0.4</p>
         <!-- <img class="img-fluid" height="500" width="500" src="Images/ahmedalamoudylogo.jpg" alt="Logo"> -->
@@ -172,12 +163,12 @@
 
     <!-- Start Section Feature  -->
     <Section class="Feature">
-        <div class="container text-center">
+        <div class="container text-center ">
             <h1>Our Feature</h1>
             <div class="row ">
                 <!-- Start Col-Feature -->
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 wow animate__fadeInLeft">
                     <div class="Col-Feature">
                         <img src="Images/foursquare.png" alt="">
                         <h3>100% Responsive</h3>
@@ -189,7 +180,7 @@
 
                 <!-- Start Col-Feature -->
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 wow animate__fadeInUpBig">
                     <div class="Col-Feature">
                         <img src="Images/foursquare.png" alt="">
                         <h3>Rating Ready</h3>
@@ -201,7 +192,7 @@
 
                 <!-- Start Col-Feature -->
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 wow animate__fadeInBottomLeft">
                     <div class="Col-Feature">
                         <img src="Images/foursquare.png" alt="">
                         <h3>Awesome Display</h3>
@@ -212,7 +203,7 @@
                 <!-- End Col-Feature -->
 
                 <!-- Start Col-Feature -->
-                <div class="col-lg-3">
+                <div class="col-lg-3 wow animate__fadeInRight">
                     <div class="Col-Feature">
                         <img src="Images/foursquare.png" alt="">
                         <h3>Well Documented</h3>
@@ -375,8 +366,8 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="team-Box">
-                        <img class="img-circle" src="Images/MO.A.jpg" alt="Mohammed Alamoudi">
-                        <h2>Mo Alamoudy</h2>
+                        <img class="img-circle" src="Images/avatarg1.jpg" alt="Mohammed Alamoudi">
+                        <h2>Ahmed Alamoudy</h2>
                         <!-- center-block == mx-auto -->
                         <p class="lead">Design department manager<br />Graphic Designer Professional in Our
                             Company</p>
@@ -421,10 +412,10 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="team-Box">
-                        <img class="img-circle" src="Images/MO.Q.jpg" alt="Mohammed Alamoudi">
+                        <img class="img-circle" src="Images/Ah.A.bmp" alt="Mohammed Alamoudi">
 
-                        <h2> Mohanned Qraq</h2>
-                        <p class="lead">Prog department manager <br />Front-End Developer in Our Company
+                        <h2> Ahmed Almoudi</h2>
+                        <p class="lead">Prog department manager <br />Web Application Developer in Our Company
                         </p>
                         <div class="icon"> <img src="Images/facebook.png" alt="Facebook">
                             <img src="Images/insta.png" alt="insta">
@@ -542,78 +533,186 @@
     </section>
     <!-- End Statices Setion -->
 
-    <!-- Start Skills Section -->
-    <section class="OurSkills ">
-        <div class="container text-center">
-            <h1>Our Skills Section</h1>
-            <div class="row">
+    <!-- Start Contact US Section -->
+    <Section class="Contact-Us text-center">
+        <div clas="container ">
+            <h1>Contact Us</h1>
+            <p class="lead">Feel Free To Contact Us Any Time</p>
+            <div class="row mx-block">
 
 
-                <!-- Start progress Skills -->
-                <div class="col-md-5">
-                    <div class="skills-Box">
-                        <!--Start Progress  -->
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 99%">Git/Github</div>
+                <div class="col-md-6 col-sm-12">
+                    <form role="form" class="ff">
+                        <!-- Start Form Group -->
+
+                        <div class="form-group">
+                            <input type="text" class="form-control p-3" placeholder="UserName">
                         </div>
-
-                        <!-- End Progress -->
-                        <!--Start Progress  -->
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 99%">Git/Github</div>
+                        <!-- End Form Group -->
+                        <!-- Start Form Group -->
+                        <div class="form-group">
+                            <input type="text" class="form-control p-3" placeholder="Email">
                         </div>
-
-                        <!-- End Progress -->
-                        <!--Start Progress  -->
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 99%">Git/Github</div>
+                        <!-- End Form Group -->
+                        <!-- Start Form Group -->
+                        <div class="form-group">
+                            <input type="text" class="form-control p-3" placeholder="Cell Phone">
                         </div>
-
-                        <!-- End Progress -->
-                        <!--Start Progress  -->
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 99%">Git/Github</div>
-                        </div>
-
-                        <!-- End Progress -->
-                    </div>
-                    <!-- skills-Box -->
+                        <!-- End Form Group -->
+                    </form>
                 </div>
-                <!-- Start progress Skills -->
 
-
-
-                <!-- Start skills-info -->
-                <div class="col-lg-6 offset-md-1">
-                    <div class="skills-info">
-                        <h3>About THe Team</h3>
-                        <p class="lead">We Are Specialised And Programming Team Passionate About Web Desgin And Creatin
-                            Digital Ideas We Will Trasfar Your Idea TO A Digital Dream And Make Youre Wish Come True
-                        </p>
-                        <button class="btn btn-primary">Talk To Proffessionl</button>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <textarea class="form-control p-3" placeholder="Youre Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-lg btn-block">
+                            Submit
+                        </button>
                     </div>
                 </div>
-                <!-- End -->
-
-
 
 
 
             </div>
+
         </div>
+        <!-- end Container -->
 
+    </Section>
+    <!-- End Contact Us Section -->
+
+
+    <!-- Start Our Client Section -->
+    <section class="Our-Client text-center">
+        <div class="container">
+            <h1>Our Client Section</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="Image"> <img src="Images/OurCllient/032-hi5.png" alt="BNC" height="100px"
+                            width="100px;">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Image"> <img src="Images/OurCllient/plurk.png" alt="plurk" height="100px"
+                            width="100px;">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Image"> <img src="Images/OurCllient/vimeo (0).png" alt="vimeo" height="100px"
+                            width="100px;"></div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="Image"> <img src="Images/OurCllient/yelp.png" alt="yelp" height="100px" width="100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- End Skills Section -->
+    <!-- Start Our Client Section -->
+
+    <!-- Start Footer -->
+    <footer class="Footer">
+        <div class="container">
+            <div class="row">
+                <!-- Start col -->
+                <div class="col-lg-4 col-md-6">
+                    <h3>Setmap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>Company</li>
+                        <li>Service</li>
+                        <li>Our Team</li>
+                        <li>Our Client</li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+                <!-- End col -->
+                <!-- Start col -->
+                <div class="col-lg-4 col-md-6">
+                    <h3>Lasted Articles</h3>
+                    <ul class="list-unstyled">
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <img class="mr-3" height="70px" width="70px;" src="Images/avatarg1.jpg"
+                                    alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla.
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img class="mr-3" height="70px" width="70px;" src="Images/avatarg2.jpg"
+                                    alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla.
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img class="mr-3" height="70px" width="70px;"
+                                    src="Images/photo-1535713875002-d1d0cf377fde.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                                    Cras sit amet nibh libero, in gravida nulla.
+                                </div>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <!-- End col -->
+                <!-- Start col -->
+                <div class="col-lg-4 col-md-12 Awesome">
+                    <h3>Our Awesome Works</h3>
+                    <img height="150px" width="150px;" class="img-thumbnail" src="Images/computer1.jpg" alt="">
+                    <img height="150px" width="150px;" class="img-thumbnail" src="Images/computer2jpg.jpg" alt="">
+                    <img height="150px" width="150px;" class="img-thumbnail" src="Images/computer3.jpg" alt="">
+                    <img height="150px" width="150px;" class="img-thumbnail" src="Images/computer1.jpg" alt="">
 
 
+                </div>
+                <!-- End col -->
+                <div class="col-md-12 col-md-4">
+                    <ul class="list-unstyled social-list">
+                        <li><img height="50px" width="50px;" src="Images/Footer/facebook.png" alt="facebook"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/linkedin.png" alt="linkedin"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/amazon.png" alt="amazon"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/twitter.png" alt="twitter"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/pinterest.png" alt="pinterest"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/quora.png" alt="quora"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/skype.png" alt="skype"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/snapchat.png" alt="snapchat"></li>
+
+                        <li><img height="50px" width="50px;" src="Images/Footer/soundcloud.png" alt="soundcloud">
+                        </li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/spotify.png" alt="spotify"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/telegram.png" alt="telegram">
+                        </li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/telegram.png" alt="telegram">
+                        </li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/twitter.png" alt="twitter"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/viber.png" alt="viber"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/vimeo.png" alt="vimeo"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/vine.png" alt="vine"></li>
+                        <li><img height="50px" width="50px;" src="Images/Footer/youtube.png" alt="youtube">
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- End Row -->
+         
+        </div>
+        <!-- End container -->
+   <div class="CopyRight text-center">
+       <div class="col-lg-12"></div>
+       CopyRight &copy:2021 Created by<span> Ahmed Alamoudi </span>
+   </div>
+    </footer>
+    <!-- End Footer -->
 
     <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
 
@@ -639,7 +738,11 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
-
+<!--  -->
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 </body>
 

@@ -2,7 +2,6 @@
 
 body {
     background-color: #0e0d0d;
-    height: 10000px;
 }
 
 /* navbar  */
@@ -604,13 +603,156 @@ right:auto;
 }
 
 /*End Statices*/
-/* Start Skills  */
-.OurSkills {
+/* Start Team Box */
+.Contact-Us {
     padding-top: 70px;
-    /* height: 700px; */
+    height: 500px;
 }
 
-.OurSkills h1 {
+@media only screen and (max-width: 732px) {
+    .Contact-Us {
+        padding-top: 70px;
+        height: 700px;
+
+    }
+
+}
+
+
+.Contact-Us h1 {
     color: aqua;
+    margin-bottom: 20px;
 }
 
+@media only screen {}
+
+.Contact-Us .ff {
+    margin-left: 100px;
+}
+
+.Contact-Us .ff {
+    width: 500px;
+}
+
+.Contact-Us textarea {
+    width: 500px;
+    height: 134px;
+
+}
+
+.Contact-Us button {
+    width: 500px;
+    padding: 12px;
+}
+
+.Contact-Us p {
+    color: beige;
+}
+
+/* End Contact */
+/* Start Our Client */
+.Our-Client {
+    padding-top: 70px;
+    height: 300px;
+    background-color: #0a0013;
+}
+
+@media only screen and (max-width: 732px) {
+    .Our-Client {
+        padding-top: 70px;
+        height: 700px;
+
+    }
+
+    .Our-Client .Image {
+        margin: 15px;
+        opacity: .4;
+        filter: alpha(opacity=40);
+
+    }
+
+}
+
+
+.Our-Client h1 {
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.Our-Client .Image {
+    margin: 15px;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition:all .4s ease-in-out;
+
+}
+
+.Our-Client .Image:hover {
+    opacity: 1;
+
+}
+/* End Our  Client */
+/* Start Footer */
+.Footer{
+    background-color: #000000 !important;
+    color:#AAA;
+    padding-top:20px;
+}
+.Footer a{color:#AAA}
+.Footer a:hover{color:#FFF}
+.Footer h3{
+    color:#0895D1;
+    letter-spacing:1px;
+    margin:30px;
+}
+.Footer .three-columns{
+    overflow: hidden;
+}
+.Footer .three-columns li {
+    width:33.3333%;
+    float:left;
+    padding:5px 0;
+}
+
+.Footer .social-list {
+    overflow: hidden;
+    display: flex;
+}
+@media only screen and (max-width: 732px) {
+.Footer .social-list {
+display: list-item;
+}
+}
+.Footer .social-list li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+    opacity: .7;
+    filter: alpha(opacity=50);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition:all .4s ease-in-out;
+}
+.Footer .social-list li:hover{
+opacity:1;
+}
+.Footer .media img {
+overflow: hidden;
+object-fit: cover;
+}
+.Footer .Awesome img{
+    margin:10px;
+}
+.Footer .CopyRight{
+    background-color: #242525;
+    padding:10px;
+    width: 100%;
+}
+.Footer .CopyRight span{
+    color:aqua;
+    margin-top:20px;
+}
